@@ -70,6 +70,7 @@ body {
 .right-panel {
   width: 250px;
   flex-shrink: 0;
+  align-self: flex-start;
   
   @media screen and (max-width: 64em) {
     width: 100%;
@@ -82,19 +83,21 @@ body {
     padding: 1.5rem;
     position: sticky;
     top: 2rem;
+    min-height: 400px;
     
     @media screen and (max-width: 64em) {
       position: static;
       margin-bottom: 2rem;
+      min-height: auto;
     }
     
     h3 {
       margin-top: 0;
       margin-bottom: 1rem;
-      color: #159957;
+      color: #328278;
       font-size: 1.25rem;
       font-weight: bold;
-      border-bottom: 2px solid #159957;
+      border-bottom: 2px solid #328278;
       padding-bottom: 0.5rem;
     }
     
@@ -108,7 +111,7 @@ body {
           margin-bottom: 0.75rem;
           
           a {
-            color: #159957;
+            color: #328278;
             text-decoration: none;
             font-weight: 500;
             display: block;
