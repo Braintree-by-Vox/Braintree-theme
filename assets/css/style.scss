@@ -34,6 +34,13 @@
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
   }
+  
+  // Horizontal rules (---) match heading color
+  hr {
+    border: 0;
+    border-top: 2px solid #159957;
+    margin: 2rem 0;
+  }
 }
 
 // Change body background color
@@ -93,7 +100,7 @@ body {
       color: #328278;
       font-size: 1.25rem;
       font-weight: bold;
-      border-bottom: 2px solid #159957;
+      border-bottom: 2px solid #328278;
       padding-bottom: 0.5rem;
     }
     
@@ -139,7 +146,7 @@ body {
       color: #328278;
       
       &::marker {
-        color: #159957;
+        color: #328278;
         font-size: 1.1em;
       }
     }
@@ -166,7 +173,7 @@ body {
       color: #333;
       
       &::marker {
-        color: #159957;
+        color: #328278;
         font-weight: bold;
       }
     }
