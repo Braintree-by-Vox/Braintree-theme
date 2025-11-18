@@ -44,6 +44,6 @@ Compliance Categories:
 
 ---
 
-[**Back to Top**](#page-1)      [**Home**](/Braintree-theme)
+[**⬆️ Back to Top**](#page-1) &nbsp;&nbsp;&nbsp;&nbsp; [**🏠 Home**](/Braintree-theme)
 
 <!-- https://braintree-by-vox.github.io/Braintree-theme/Readme -->
