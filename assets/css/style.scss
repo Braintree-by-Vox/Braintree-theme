@@ -65,19 +65,17 @@ body {
   min-width: 0; // Prevent flex item from overflowing
 }
 
-// Sidebar styles
-.sidebar {
-  width: 280px;
+// Left and Right Panel styles
+.left-panel,
+.right-panel {
+  width: 250px;
   flex-shrink: 0;
-  order: -1; // Move sidebar to the left
   
   @media screen and (max-width: 64em) {
     width: 100%;
-    margin-top: 2rem;
-    order: 0;
   }
   
-  .sidebar-content {
+  .panel-content {
     background-color: #ffffff;
     border: 1px solid #d1d5da;
     border-radius: 6px;
@@ -87,6 +85,7 @@ body {
     
     @media screen and (max-width: 64em) {
       position: static;
+      margin-bottom: 2rem;
     }
     
     h3 {
@@ -97,10 +96,6 @@ body {
       font-weight: bold;
       border-bottom: 2px solid #159957;
       padding-bottom: 0.5rem;
-      
-      &:not(:first-child) {
-        margin-top: 2rem;
-      }
     }
     
     .site-nav {
@@ -156,6 +151,22 @@ body {
         }
       }
     }
+  }
+}
+
+.left-panel {
+  order: -1;
+  
+  @media screen and (max-width: 64em) {
+    order: 0;
+  }
+}
+
+.right-panel {
+  order: 1;
+  
+  @media screen and (max-width: 64em) {
+    order: 2;
   }
 }
 
