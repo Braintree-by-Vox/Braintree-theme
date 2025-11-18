@@ -54,6 +54,7 @@ body {
   max-width: 80rem;
   margin: 0 auto;
   gap: 2rem;
+  align-items: flex-start; // Align panels to top
   
   @media screen and (max-width: 64em) {
     flex-direction: column;
@@ -70,7 +71,7 @@ body {
 .right-panel {
   width: 250px;
   flex-shrink: 0;
-  // align-self: stretch;
+  align-self: stretch; // Make panels same height
   
   @media screen and (max-width: 64em) {
     width: 100%;
@@ -79,25 +80,27 @@ body {
   
   .panel-content {
     background-color: #ffffff;
-    // background-color: linen;
     border: 1px solid #d1d5da;
     border-radius: 6px;
     padding: 1.5rem;
-    // height: 100%;
-    // color: #b5f1e9;
+    position: sticky;
+    top: 2rem;
+    height: fit-content; // Allow content to determine height
+    min-height: 600px; // Minimum height for consistency
     
     @media screen and (max-width: 64em) {
-      height: auto;
+      position: static;
       margin-bottom: 2rem;
+      min-height: auto;
     }
     
     h3 {
       margin-top: 0;
       margin-bottom: 1rem;
-      color: #328278;
+      color: #159957;
       font-size: 1.25rem;
       font-weight: bold;
-      border-bottom: 2px solid #328278;
+      border-bottom: 2px solid #159957;
       padding-bottom: 0.5rem;
     }
     
@@ -111,7 +114,7 @@ body {
           margin-bottom: 0.75rem;
           
           a {
-            color: #328278;
+            color: #159957;
             text-decoration: none;
             font-weight: 500;
             display: block;
