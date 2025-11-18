@@ -69,10 +69,12 @@ body {
 .sidebar {
   width: 280px;
   flex-shrink: 0;
+  order: -1; // Move sidebar to the left
   
   @media screen and (max-width: 64em) {
     width: 100%;
     margin-top: 2rem;
+    order: 0;
   }
   
   .sidebar-content {
@@ -95,6 +97,37 @@ body {
       font-weight: bold;
       border-bottom: 2px solid #159957;
       padding-bottom: 0.5rem;
+      
+      &:not(:first-child) {
+        margin-top: 2rem;
+      }
+    }
+    
+    .site-nav {
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+        li {
+          margin-bottom: 0.75rem;
+          
+          a {
+            color: #159957;
+            text-decoration: none;
+            font-weight: 500;
+            display: block;
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+            
+            &:hover {
+              background-color: #f6f8fa;
+              text-decoration: none;
+            }
+          }
+        }
+      }
     }
     
     .contact-info {
