@@ -54,7 +54,6 @@ body {
   max-width: 80rem;
   margin: 0 auto;
   gap: 2rem;
-  align-items: flex-start; // Align panels to top
   
   @media screen and (max-width: 64em) {
     flex-direction: column;
@@ -66,32 +65,26 @@ body {
   min-width: 0; // Prevent flex item from overflowing
 }
 
-// Left and Right Panel styles
-.left-panel,
-.right-panel {
-  width: 250px;
+// Sidebar styles
+.sidebar {
+  width: 280px;
   flex-shrink: 0;
-  align-self: stretch; // Make panels same height
   
   @media screen and (max-width: 64em) {
     width: 100%;
-    align-self: auto;
+    margin-top: 2rem;
   }
   
-  .panel-content {
+  .sidebar-content {
     background-color: #ffffff;
     border: 1px solid #d1d5da;
     border-radius: 6px;
     padding: 1.5rem;
     position: sticky;
     top: 2rem;
-    height: fit-content; // Allow content to determine height
-    min-height: 600px; // Minimum height for consistency
     
     @media screen and (max-width: 64em) {
       position: static;
-      margin-bottom: 2rem;
-      min-height: auto;
     }
     
     h3 {
@@ -102,33 +95,6 @@ body {
       font-weight: bold;
       border-bottom: 2px solid #159957;
       padding-bottom: 0.5rem;
-    }
-    
-    .site-nav {
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        
-        li {
-          margin-bottom: 0.75rem;
-          
-          a {
-            color: #159957;
-            text-decoration: none;
-            font-weight: 500;
-            display: block;
-            padding: 0.5rem;
-            border-radius: 4px;
-            transition: background-color 0.2s;
-            
-            &:hover {
-              background-color: #f6f8fa;
-              text-decoration: none;
-            }
-          }
-        }
-      }
     }
     
     .contact-info {
@@ -155,95 +121,6 @@ body {
             text-decoration: underline;
           }
         }
-      }
-    }
-  }
-}
-
-.left-panel {
-  order: -1;
-  
-  @media screen and (max-width: 64em) {
-    order: 0;
-  }
-}
-
-.right-panel {
-  order: 1;
-  
-  @media screen and (max-width: 64em) {
-    order: 2;
-  }
-}
-
-// Footer styling
-.site-footer {
-  background-color: #159957;
-  color: #ffffff;
-  padding: 2rem 0;
-  margin-top: 3rem;
-  
-  .footer-content {
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 0 2rem;
-    
-    @media screen and (max-width: 64em) {
-      padding: 0 1rem;
-    }
-  }
-  
-  .contact-details {
-    margin-bottom: 2rem;
-    
-    h3 {
-      color: #ffffff;
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-      padding-bottom: 0.5rem;
-    }
-    
-    .contact-info {
-      p {
-        margin-bottom: 0.75rem;
-        font-size: 1rem;
-        line-height: 1.6;
-        
-        &:last-child {
-          margin-bottom: 0;
-        }
-        
-        strong {
-          color: #ffffff;
-          font-weight: 600;
-        }
-        
-        a {
-          color: #ffffff;
-          text-decoration: underline;
-          
-          &:hover {
-            opacity: 0.8;
-          }
-        }
-      }
-    }
-  }
-  
-  .footer-credits {
-    border-top: 1px solid rgba(255, 255, 255, 0.3);
-    padding-top: 1rem;
-    font-size: 0.9rem;
-    opacity: 0.8;
-    
-    a {
-      color: #ffffff;
-      text-decoration: underline;
-      
-      &:hover {
-        opacity: 0.8;
       }
     }
   }
