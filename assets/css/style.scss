@@ -38,7 +38,7 @@
 
 // Change body background color
 body {
-  background-color: azure //  lightcyan ;  // Light gray (change to your preferred color)
+  background-color: lightcyan ;  // Light gray (change to your preferred color)
 }
 
 // Optional: Change main content background if you want it different from body
@@ -70,7 +70,7 @@ body {
 .right-panel {
   width: 250px;
   flex-shrink: 0;
-  align-self: stretch;
+  // align-self: stretch;
   
   @media screen and (max-width: 64em) {
     width: 100%;
