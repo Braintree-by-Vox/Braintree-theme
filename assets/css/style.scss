@@ -50,10 +50,10 @@ body {
 }
 
 // Optional: Change main content background if you want it different from body
-.main-content {
-  background-color: $braintree-main;  // White content area
-  border-radius: 8px;         // Optional rounded corners
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);  // Optional shadow
+// .main-content {
+//   background-color: $braintree-main;  // White content area
+//   border-radius: 8px;         // Optional rounded corners
+//   box-shadow: 0 2px 4px rgba(0,0,0,0.1);  // Optional shadow
 }
 
 // Two-column layout with sidebar
@@ -91,6 +91,7 @@ body {
   
   .left-sidebar-content {
     background-color: lightcyan;
+    border-radius: 6px;
     border-right: 1px solid $braintree-border;
     padding: 1.5rem;
     position: sticky;
@@ -155,7 +156,6 @@ body {
   }
   
   .sidebar-content {
-    // background-color: #ffffff;
     background-color: $braintree-contact;
     border: 1px solid #d1d5da;
     border-radius: 6px;
@@ -179,7 +179,7 @@ body {
     
     .contact-info {
       p {
-        // margin-bottom: 0.1rem;
+        // margin-bottom: 0.4rem;
         font-size: 0.9rem;
         line-height: 1;
         
@@ -188,7 +188,7 @@ body {
         }
         
         strong {
-          // margin-top:0.15rem;
+          margin-top:0.2rem;
           color: $braintree-font;
           display: block;
           // margin-bottom: 0.15rem;
