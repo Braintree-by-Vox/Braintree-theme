@@ -251,8 +251,21 @@ body {
       }
     }
   }
+}
+
 .braintree-button {
-  background-color: $braintree-background;  
-  color: purple; border-radius: 5px;
+  background-color: $braintree-background;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid $braintree-border;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem 0;
+  transition: background-color 0.3s ease;
+  
+  &:hover {
+    background-color: #003433;
+    border-color: #003433;
   }
 }
