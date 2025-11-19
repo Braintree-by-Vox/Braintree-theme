@@ -91,7 +91,7 @@ body {
   
   .left-sidebar-content {
     background-color: lightcyan;
-    border-right: 1px solid #328278;
+    border-right: 1px solid $braintree-border;
     padding: 1.5rem;
     position: sticky;
     top: 2rem;
@@ -100,14 +100,14 @@ body {
     @media screen and (max-width: 64em) {
       position: static;
       border-right: none;
-      border: 1px solid #328278;
+      border: 1px solid $braintree-border;
       border-radius: 6px;
     }
     
     h3 {
       margin-top: 0;
       margin-bottom: 1rem;
-      color: #328278;
+      color: $braintree-font;
       font-size: 1.25rem;
       font-weight: bold;
       padding-bottom: 0.5rem;
@@ -155,7 +155,8 @@ body {
   }
   
   .sidebar-content {
-    background-color: #ffffff;
+    // background-color: #ffffff;
+    background-color: $braintree-contact;
     border: 1px solid #d1d5da;
     border-radius: 6px;
     padding: 1.5rem;
@@ -169,10 +170,10 @@ body {
     h3 {
       margin-top: 0;
       margin-bottom: 0.5rem;
-      color: #328278;
+      color: $braintree-font;
       font-size: 1.25rem;
       font-weight: bold;
-      border-bottom: 2px solid #328278;
+      border-bottom: 2px solid $braintree-border;
       padding-bottom: 0.25rem;
     }
     
@@ -187,15 +188,14 @@ body {
         }
         
         strong {
-          color: #328278;
+          color: $braintree-font;
           display: block;
           margin-bottom: 0.15rem;
         }
         
         a {
-          color: #328278;
+          color:$braintree-font;
           text-decoration: none;
-          
           &:hover {
             text-decoration: underline;
           }
@@ -215,10 +215,10 @@ body {
     li {
       margin-bottom: 0.5rem;
       line-height: 1.6;
-      color: #328278;
+      color: $braintree-font;
       
       &::marker {
-        color: #328278;
+        color: $braintree-font;
         font-size: 1.1em;
       }
     }
@@ -245,7 +245,7 @@ body {
       color: #333;
       
       &::marker {
-        color: #328278;
+        color: $braintree-font;
         font-weight: bold;
       }
     }
