@@ -9,6 +9,9 @@
 
 // Custom header height overrides
 .page-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   max-height: 200px;      // Maximum header height
   overflow: hidden;       // Hide content that exceeds max-height
     
