@@ -254,8 +254,8 @@ body {
 }
 
 .braintree-button {
-  background-color: $braintree-background;
-  color: white;
+  background-color: $braintree-button-bg;
+  color: $braintree-button-color;
   border-radius: 5px;
   border: 2px solid $braintree-border;
   padding: 10px 20px;
