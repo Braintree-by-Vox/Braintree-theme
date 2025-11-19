@@ -46,15 +46,15 @@
 // Change body background color
 body {
   // background-color: lightcyan ;  // (change to your preferred color)
-  background-color: $braintree-pink;
+  background-color: $braintree-background;
 }
 
-// Optional: Change main content background if you want it different from body
-// .main-content {
-//   background-color: #ffffff;  // White content area
-//   border-radius: 8px;         // Optional rounded corners
-//   box-shadow: 0 2px 4px rgba(0,0,0,0.1);  // Optional shadow
-// }
+Optional: Change main content background if you want it different from body
+.main-content {
+  background-color: #ffffff;  // White content area
+  border-radius: 8px;         // Optional rounded corners
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);  // Optional shadow
+}
 
 // Two-column layout with sidebar
 .page-wrapper {
