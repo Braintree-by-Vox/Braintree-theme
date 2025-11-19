@@ -265,7 +265,7 @@ body {
   transition: background-color 0.3s ease;
   
   &:hover {
-    background-color: darkred;
+    background-color: $braintree-hover;
     border-color: #003433;
   }
 }
