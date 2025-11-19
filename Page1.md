@@ -1,8 +1,7 @@
-# Page 1
+# Content
 
-This is a page heading
-Some intro stuff
-
+This is a an example of a content page
+Write some text here
 
 - [TOC](#this-is-a-section-heading)
 
@@ -31,5 +30,3 @@ Monitor expiry dates, request updates from third parties, and ensure timely rene
 ---
 
 [**⬆️ Back to Top**](#page-1) &nbsp;&nbsp;&nbsp;&nbsp; [**🏠 Home**](/Braintree-theme)
-
-<!-- https://braintree-by-vox.github.io/Braintree-theme/Readme -->
