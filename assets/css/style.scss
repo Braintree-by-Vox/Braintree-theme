@@ -51,7 +51,7 @@ body {
 
 // Optional: Change main content background if you want it different from body
 .main-content {
-  background-color: #ffffff;  // White content area
+  background-color: $braintree-main;  // White content area
   border-radius: 8px;         // Optional rounded corners
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);  // Optional shadow
 }
