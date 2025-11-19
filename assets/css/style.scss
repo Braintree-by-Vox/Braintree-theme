@@ -188,9 +188,10 @@ body {
         }
         
         strong {
+          margin-top:0.15rem;
           color: $braintree-font;
           display: block;
-          margin-bottom: 0.15rem;
+          // margin-bottom: 0.15rem;
         }
         
         a {
