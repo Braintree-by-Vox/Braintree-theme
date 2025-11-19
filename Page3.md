@@ -1,8 +1,7 @@
 # Downloads
-This is page 3 with some other topics
+This is page for downloading resources to local drive
 
-<a href="Text.txt" download class="braintree-background" 
-    style="display: inline-block; padding:
-             10px 20px; text-decoration: none; 
-             color: purple; border-radius: 5px;">
+<a href="Text.txt" download class="braintree-button" 
+    style="display: inline-block; padding: 10px 20px; 
+             ">
     Download Text.txt</a>
