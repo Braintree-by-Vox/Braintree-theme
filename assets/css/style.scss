@@ -197,10 +197,19 @@ body {
         
         a {
           color:$braintree-font;
+          // font-size: 0.9rem;
           text-decoration: none;
           &:hover {
             text-decoration: underline;
           }
+        .link {
+          color:$braintree-font;
+          font-size: 0.9rem;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+
         }
       }
     }
