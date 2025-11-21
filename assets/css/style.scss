@@ -18,12 +18,10 @@
   @media screen and (min-width: 64em) {
     padding: 3rem 6rem;  // Default is 5rem 6rem
   }
-  
   // Tablet
   @media screen and (min-width: 42em) and (max-width: 64em) {
     padding: 2rem 4rem;  // Default is 3rem 4rem
   }
-  
   // Mobile
   @media screen and (max-width: 42em) {
     padding: 1.5rem 1rem;  // Default is 2rem 1rem
@@ -125,7 +123,7 @@ body {
           margin-bottom: 0.75rem;
           
           a {
-            color: #328278;
+            color: $header-bg-color;
             text-decoration: none;
             font-weight: 500;
             display: block;
@@ -285,6 +283,40 @@ body {
   &:hover {
     background-color: $braintree-hover;
     border-color: #003433;
+  }
+}
+
+// Collapsible details/summary styling
+.main-content {
+  details {
+    summary {
+      color: $braintree-colour6;
+      cursor: pointer;
+      font-weight: bold;
+      
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+
+// Markdown-style unordered list (starting with -)
+.main-content {
+  ul li {
+    > p {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    
+    &::marker {
+      color: $braintree-font;
+    }
   }
 }
 

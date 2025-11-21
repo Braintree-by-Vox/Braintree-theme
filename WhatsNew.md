@@ -1,11 +1,14 @@
 # Release notes
 
-## Release xx 
-Release Date:
-Applies to versions:
-* Issue / Feature Description
-  * Details
+# Release (Appsource version) (Braintree version)
 
-## Debtors Collections
+<details>
+<summary>One-liner describing the issue (click for details)</summary>
+<ul>
+<li>Line 1 of detail</li>
+<li>Line 2 of detail</li> 
+<!-- copy line above to add details -->
+</ul>
+</details>
 
-## FEC
+<!-- copy whole section above per release -->
