@@ -94,8 +94,10 @@ body {
     border-right: 1px solid $braintree-border;
     padding: 1.5rem;
     position: sticky;
-    top: 220px;
-    min-height: 800px;
+    top: 210px;
+    max-height: calc(100vh - 220px);
+    overflow-y: auto;
+    align-self: flex-start;
     
     @media screen and (max-width: 64em) {
       position: static;
@@ -160,11 +162,11 @@ body {
     border-radius: 6px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    
-    &:first-child {
-      position: sticky;
-      top: 200px;
-    }
+    position: sticky;
+    top: 210px;
+    max-height: calc(100vh - 220px);
+    overflow-y: auto;
+    align-self: flex-start;
     
     @media screen and (max-width: 64em) {
       position: static;
