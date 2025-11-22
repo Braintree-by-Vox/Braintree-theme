@@ -1,18 +1,16 @@
-# Page 1
+# Content
 
-This is a page heading
-Some intro stuff
-
+This is a an example of a content page
+Write some text here
 
 - [TOC](#this-is-a-section-heading)
 
-
-## This is a section heading
+## Section 1
 
 * Bullet list
 * Bullet list
 
-## Another Section
+## Section 2
 
 ### Subsection
 Write a lot of Stuff here
@@ -29,21 +27,6 @@ Braintree’s Compliance Document Tracker helps you capture and manage external 
 
 Monitor expiry dates, request updates from third parties, and ensure timely renewals, all from one centralised platform.
 
-Key Features
-•	Centralised Control - Attach third-party compliance documents to core business data for easy access.
-•	Document Tracking - Monitor expiring documents and request updates proactively.
-•	Entity Linking - Connect documents to customers, vendors, assets, or staff for complete visibility. 
-•	Integration - Upload and manage documents within Dynamics 365 Business Central.
-Compliance Categories: 
-•	Government documentation (e.g., company registrations, tax clearance, VAT registrations, B-BEE certificates)
-•	Industry standards (ISO, TUV certifications)
-•	Safety certificates (roadworthy, fire equipment inspections)
-•	Licences and memberships
-•	For employees - skills certifications, identity documents, drivers’ licences, training certifications, medical certifications.
-
-
 ---
 
-[**⬆️ Back to Top**](#page-1) &nbsp;&nbsp;&nbsp;&nbsp; [**🏠 Home**](/Braintree-theme)
-
-<!-- https://braintree-by-vox.github.io/Braintree-theme/Readme -->
+[**⬆️ Back to Top**](#content) &nbsp;&nbsp;&nbsp;&nbsp; [**🏠 Home**](/Braintree-theme)
