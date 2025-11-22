@@ -13,7 +13,8 @@
   top: 0;
   max-height: 200px;      // Maximum header height
   overflow: hidden;       // Hide content that exceeds max-height
-    
+  z-index: 100;           // Ensure header stays on top    
+  
   // Desktop
   @media screen and (min-width: 64em) {
     padding: 3rem 6rem;  // Default is 5rem 6rem
@@ -26,6 +27,14 @@
   @media screen and (max-width: 42em) {
     padding: 1.5rem 1rem;  // Default is 2rem 1rem
     max-height: 150px;     // Shorter on mobile
+  }
+}
+
+html {
+  scroll-padding-top: 220px; // Header height + buffer
+  
+  @media screen and (max-width: 42em) {
+    scroll-padding-top: 170px; // Mobile header height + buffer
   }
 }
 
