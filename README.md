@@ -2,7 +2,7 @@
 
 ## [Content](Page1)
 
-## [Videos](Videos)
+## [Videos](Resources/videos)
 
-## [Downloads](Downloads)
+## [Downloads](Resources/Downloads)
 
