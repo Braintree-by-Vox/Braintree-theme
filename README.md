@@ -1,7 +1,8 @@
 # Braintree-theme
 
-## [Page 1](Page1)
+## [Content](Page1)
 
-## [Page 2](Page2)
+## [Videos](Resources/Videos)
 
-## [Page 3](Page3)
+## [Downloads](Resources/Downloads)
+
