@@ -7,7 +7,7 @@
         </object>
         <mxCell id="1" parent="0" />
         <mxCell id="_66wXDreATf8bZ0oeavB-136" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;rounded=0;strokeColor=#314354;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#647687;" value="Issue Management" vertex="1">
-          <mxGeometry height="380" width="1020" x="-2490" y="34" as="geometry" />
+          <mxGeometry height="380" width="1020" x="-3420" y="60" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-137" parent="_66wXDreATf8bZ0oeavB-136" style="swimlane;html=1;startSize=20;horizontal=0;rounded=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;fillColor=light-dark(#FFFFFF,#003333);" value="Consulting" vertex="1">
           <mxGeometry height="120" width="1020" y="20" as="geometry" />
@@ -38,29 +38,29 @@
         </mxCell>
         <UserObject label="Register task" tooltip="Use ticket-logging system / project to add a new task" id="_66wXDreATf8bZ0oeavB-141">
           <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;labelBackgroundColor=none;part=1;" vertex="1">
-            <mxGeometry height="60" width="120" x="-2458" y="71" as="geometry" />
+            <mxGeometry height="60" width="120" x="-3388" y="97" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="_66wXDreATf8bZ0oeavB-152" edge="1" parent="1" source="_66wXDreATf8bZ0oeavB-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#A8DADC;" target="_66wXDreATf8bZ0oeavB-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-142" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;labelBackgroundColor=none;" value="Create user story in DevOps" vertex="1">
-          <mxGeometry height="60" width="120" x="-2317" y="71" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3247" y="97" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-143" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;labelBackgroundColor=none;" value="&lt;div&gt;Implement training / process changes&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-2034" y="76" as="geometry" />
+          <mxGeometry height="60" width="120" x="-2964" y="102" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-144" edge="1" parent="1" source="_66wXDreATf8bZ0oeavB-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#A8DADC;" target="_66wXDreATf8bZ0oeavB-146" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-145" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;labelBackgroundColor=none;" value="Review notes and materials" vertex="1">
-          <mxGeometry height="60" width="120" x="-2317" y="201" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3247" y="227" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-154" edge="1" parent="1" source="_66wXDreATf8bZ0oeavB-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#A8DADC;" target="_66wXDreATf8bZ0oeavB-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-146" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;labelBackgroundColor=none;" value="Attempt to replicate issue" vertex="1">
-          <mxGeometry height="60" width="120" x="-2175" y="201" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3105" y="227" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-147" edge="1" parent="1" source="_66wXDreATf8bZ0oeavB-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#A8DADC;" target="_66wXDreATf8bZ0oeavB-150" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -69,25 +69,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-148" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;labelBackgroundColor=none;" value="&lt;div&gt;Make recommendations&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-2035" y="201" as="geometry" />
+          <mxGeometry height="60" width="120" x="-2965" y="227" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-149" edge="1" parent="1" source="_66wXDreATf8bZ0oeavB-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#A8DADC;" target="_66wXDreATf8bZ0oeavB-151" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-150" parent="1" style="whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;rounded=0;labelBackgroundColor=none;" value="Create change request" vertex="1">
-          <mxGeometry height="60" width="120" x="-1893" y="201" as="geometry" />
+          <mxGeometry height="60" width="120" x="-2823" y="227" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-158" edge="1" parent="1" source="_66wXDreATf8bZ0oeavB-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#A8DADC;" target="_66wXDreATf8bZ0oeavB-157" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-151" parent="1" style="whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;rounded=0;labelBackgroundColor=none;" value="Design changes and record in DevOps" vertex="1">
-          <mxGeometry height="60" width="120" x="-1750" y="201" as="geometry" />
+          <mxGeometry height="60" width="120" x="-2680" y="227" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-155" edge="1" parent="1" source="_66wXDreATf8bZ0oeavB-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#457B9D;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;fillColor=#A8DADC;" target="_66wXDreATf8bZ0oeavB-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_66wXDreATf8bZ0oeavB-153" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;labelBackgroundColor=none;" value="Review findings with Consultant&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="-2175" y="317" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3105" y="343" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
